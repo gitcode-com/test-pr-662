@@ -296,7 +296,8 @@ export enum DeviceOrientation {
 }
 
 export enum ScrollActivity {
-  HOLD = "hold",
+  HOLD = "pause",
+  ON = "ing",
   START = "start",
   END = "end",
 }
